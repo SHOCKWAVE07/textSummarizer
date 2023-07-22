@@ -233,3 +233,765 @@ Source-Age: 0
 [2023-07-22 17:01:29,465: INFO: main: >>>>> stage Data Validation stage completed <<<<<< 
 
  x=========x]
+[2023-07-22 20:04:16,843: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-22 20:04:16,849: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-22 20:04:16,851: INFO: common: created directory at: artifacts]
+[2023-07-22 20:04:16,854: INFO: common: created directory at: artifacts/data_transformation]
+[2023-07-22 20:04:48,554: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-22 20:04:48,556: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-22 20:04:48,558: INFO: common: created directory at: artifacts]
+[2023-07-22 20:04:48,560: INFO: common: created directory at: artifacts/data_transformation]
+[2023-07-22 20:04:59,156: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-22 20:04:59,159: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-22 20:04:59,161: INFO: common: created directory at: artifacts]
+[2023-07-22 20:04:59,163: INFO: common: created directory at: artifacts/data_transformation]
+[2023-07-22 20:19:23,894: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2023-07-22 20:19:23,899: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-22 20:19:23,900: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-22 20:19:23,901: INFO: common: created directory at: artifacts]
+[2023-07-22 20:19:23,902: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-07-22 20:19:28,877: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: E7F8:3DCDE6:25AE7F:356706:64BBEC73
+Accept-Ranges: bytes
+Date: Sat, 22 Jul 2023 14:49:25 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21728-DEL
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1690037364.262110,VS0,VE741
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 2a5f75bb79a34699079f57f56e02bccfe40a1e44
+Expires: Sat, 22 Jul 2023 14:54:25 GMT
+Source-Age: 0
+
+]
+[2023-07-22 20:19:29,003: INFO: main: >>>>> stage Data Ingestion stage completed <<<<<< 
+
+ x=========x]
+[2023-07-22 20:19:29,004: INFO: main: >>>>> stage Data Validation stage started <<<<<]
+[2023-07-22 20:19:29,007: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-22 20:19:29,008: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-22 20:19:29,008: INFO: common: created directory at: artifacts]
+[2023-07-22 20:19:29,009: INFO: common: created directory at: artifacts/data_validation]
+[2023-07-22 20:19:29,012: INFO: main: >>>>> stage Data Validation stage completed <<<<<< 
+
+ x=========x]
+[2023-07-22 20:19:29,012: INFO: main: >>>>> stage Data Transformation stage started <<<<<]
+[2023-07-22 20:19:29,017: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-22 20:19:29,018: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-22 20:19:29,019: INFO: common: created directory at: artifacts]
+[2023-07-22 20:19:29,020: INFO: common: created directory at: artifacts/data_transformation]
+[2023-07-22 20:19:33,882: INFO: main: >>>>> stage Data Transformation stage completed <<<<<< 
+
+ x=========x]
+[2023-07-22 21:04:01,034: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-22 21:04:01,050: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-22 21:04:01,054: INFO: common: created directory at: artifacts]
+[2023-07-22 21:04:01,057: INFO: common: created directory at: artifacts/model_trainer]
+[2023-07-22 21:15:58,690: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-22 21:15:58,702: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-22 21:15:58,705: INFO: common: created directory at: artifacts]
+[2023-07-22 21:15:58,708: INFO: common: created directory at: artifacts/model_trainer]
+[2023-07-22 21:30:46,334: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2023-07-22 21:30:46,338: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-22 21:30:46,341: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-22 21:30:46,341: INFO: common: created directory at: artifacts]
+[2023-07-22 21:30:46,342: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-07-22 21:30:56,696: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 3A9A:32F20E:1A4F3B:24D40D:64BBFD2C
+Accept-Ranges: bytes
+Date: Sat, 22 Jul 2023 16:00:51 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21750-DEL
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1690041647.592062,VS0,VE5343
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 617cbbb5468c4b84305faf3a11cf3bf27793dbfb
+Expires: Sat, 22 Jul 2023 16:05:51 GMT
+Source-Age: 5
+
+]
+[2023-07-22 21:30:56,808: INFO: main: >>>>> stage Data Ingestion stage completed <<<<<< 
+
+ x=========x]
+[2023-07-22 21:30:56,808: INFO: main: >>>>> stage Data Validation stage started <<<<<]
+[2023-07-22 21:30:56,812: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-22 21:30:56,815: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-22 21:30:56,816: INFO: common: created directory at: artifacts]
+[2023-07-22 21:30:56,816: INFO: common: created directory at: artifacts/data_validation]
+[2023-07-22 21:30:56,821: INFO: main: >>>>> stage Data Validation stage completed <<<<<< 
+
+ x=========x]
+[2023-07-22 21:30:56,821: INFO: main: >>>>> stage Data Transformation stage started <<<<<]
+[2023-07-22 21:30:56,831: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-22 21:30:56,834: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-22 21:30:56,839: INFO: common: created directory at: artifacts]
+[2023-07-22 21:30:56,841: INFO: common: created directory at: artifacts/data_transformation]
+[2023-07-22 21:31:01,755: INFO: main: >>>>> stage Data Transformation stage completed <<<<<< 
+
+ x=========x]
+[2023-07-22 21:31:01,756: INFO: main: >>>>> stage Model Trainer stage started <<<<<]
+[2023-07-22 21:31:01,761: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-22 21:31:01,764: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-22 21:31:01,765: INFO: common: created directory at: artifacts]
+[2023-07-22 21:31:01,766: INFO: common: created directory at: artifacts/model_trainer]
+[2023-07-22 21:31:30,415: ERROR: main: Using the `Trainer` with `PyTorch` requires `accelerate>=0.20.1`: Please run `pip install transformers[torch]` or `pip install accelerate -U`]
+Traceback (most recent call last):
+  File "main.py", line 41, in <module>
+    model_training.main()
+  File "c:\users\asus\desktop\textsummarizer\src\textSummarizer\pipeline\stage_04_model_trainer.py", line 13, in main
+    model_trainer_config.train()
+  File "c:\users\asus\desktop\textsummarizer\src\textSummarizer\components\model_trainer.py", line 22, in train
+    trainer_args = TrainingArguments(
+  File "<string>", line 112, in __init__
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\transformers\training_args.py", line 1372, in __post_init__
+    and (self.device.type != "cuda")
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\transformers\training_args.py", line 1795, in device
+    return self._setup_devices
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\transformers\utils\generic.py", line 54, in __get__
+    cached = self.fget(obj)
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\transformers\training_args.py", line 1716, in _setup_devices
+    raise ImportError(
+ImportError: Using the `Trainer` with `PyTorch` requires `accelerate>=0.20.1`: Please run `pip install transformers[torch]` or `pip install accelerate -U`
+[2023-07-22 21:32:27,482: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2023-07-22 21:32:27,487: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-22 21:32:27,492: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-22 21:32:27,493: INFO: common: created directory at: artifacts]
+[2023-07-22 21:32:27,494: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-07-22 21:32:27,495: INFO: data_ingestion: File already exists of size: ~ 7718 KB]
+[2023-07-22 21:32:27,606: INFO: main: >>>>> stage Data Ingestion stage completed <<<<<< 
+
+ x=========x]
+[2023-07-22 21:32:27,607: INFO: main: >>>>> stage Data Validation stage started <<<<<]
+[2023-07-22 21:32:27,611: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-22 21:32:27,614: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-22 21:32:27,615: INFO: common: created directory at: artifacts]
+[2023-07-22 21:32:27,616: INFO: common: created directory at: artifacts/data_validation]
+[2023-07-22 21:32:27,618: INFO: main: >>>>> stage Data Validation stage completed <<<<<< 
+
+ x=========x]
+[2023-07-22 21:32:27,619: INFO: main: >>>>> stage Data Transformation stage started <<<<<]
+[2023-07-22 21:32:27,623: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-22 21:32:27,626: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-22 21:32:27,627: INFO: common: created directory at: artifacts]
+[2023-07-22 21:32:27,628: INFO: common: created directory at: artifacts/data_transformation]
+[2023-07-22 21:32:29,321: WARNING: arrow_dataset: Loading cached processed dataset at C:\Users\ASUS\Desktop\textSummarizer\artifacts\data_ingestion\samsum_dataset\train\cache-b351a43c67b25ca6.arrow]
+[2023-07-22 21:32:31,711: WARNING: arrow_dataset: Loading cached processed dataset at C:\Users\ASUS\Desktop\textSummarizer\artifacts\data_ingestion\samsum_dataset\validation\cache-a0a13ba6948adb18.arrow]
+[2023-07-22 21:32:31,827: INFO: main: >>>>> stage Data Transformation stage completed <<<<<< 
+
+ x=========x]
+[2023-07-22 21:32:31,828: INFO: main: >>>>> stage Model Trainer stage started <<<<<]
+[2023-07-22 21:32:31,832: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-22 21:32:31,835: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-22 21:32:31,836: INFO: common: created directory at: artifacts]
+[2023-07-22 21:32:31,837: INFO: common: created directory at: artifacts/model_trainer]
+[2023-07-22 21:32:54,673: ERROR: main: Invalid key: 6936 is out of bounds for size 0]
+Traceback (most recent call last):
+  File "main.py", line 41, in <module>
+    model_training.main()
+  File "c:\users\asus\desktop\textsummarizer\src\textSummarizer\pipeline\stage_04_model_trainer.py", line 13, in main
+    model_trainer_config.train()
+  File "c:\users\asus\desktop\textsummarizer\src\textSummarizer\components\model_trainer.py", line 35, in train
+    trainer.train()
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\transformers\trainer.py", line 1539, in train
+    return inner_training_loop(
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\transformers\trainer.py", line 1787, in _inner_training_loop
+    for step, inputs in enumerate(epoch_iterator):
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\accelerate\data_loader.py", line 384, in __iter__
+    current_batch = next(dataloader_iter)
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\torch\utils\data\dataloader.py", line 633, in __next__
+    data = self._next_data()
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\torch\utils\data\dataloader.py", line 677, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\torch\utils\data\_utils\fetch.py", line 49, in fetch
+    data = self.dataset.__getitems__(possibly_batched_index)
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\datasets\arrow_dataset.py", line 2796, in __getitems__
+    batch = self.__getitem__(keys)
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\datasets\arrow_dataset.py", line 2792, in __getitem__
+    return self._getitem(key)
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\datasets\arrow_dataset.py", line 2776, in _getitem
+    pa_subtable = query_table(self._data, key, indices=self._indices if self._indices is not None else None)
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\datasets\formatting\formatting.py", line 583, in query_table
+    _check_valid_index_key(key, size)
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\datasets\formatting\formatting.py", line 536, in _check_valid_index_key
+    _check_valid_index_key(int(max(key)), size=size)
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\datasets\formatting\formatting.py", line 526, in _check_valid_index_key
+    raise IndexError(f"Invalid key: {key} is out of bounds for size {size}")
+IndexError: Invalid key: 6936 is out of bounds for size 0
+[2023-07-22 21:34:01,327: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-22 21:34:01,333: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-22 21:34:01,335: INFO: common: created directory at: artifacts]
+[2023-07-22 21:34:01,337: INFO: common: created directory at: artifacts/model_trainer]
+[2023-07-22 21:34:48,088: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-22 21:34:48,097: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-22 21:34:48,100: INFO: common: created directory at: artifacts]
+[2023-07-22 21:34:48,102: INFO: common: created directory at: artifacts/model_trainer]
+[2023-07-22 21:36:19,330: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-22 21:36:19,340: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-22 21:36:19,343: INFO: common: created directory at: artifacts]
+[2023-07-22 21:36:19,345: INFO: common: created directory at: artifacts/model_trainer]
+[2023-07-22 21:36:45,414: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-22 21:36:45,420: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-22 21:36:45,422: INFO: common: created directory at: artifacts]
+[2023-07-22 21:36:45,424: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-07-22 21:36:49,919: INFO: 2634481129: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 3A9A:32F20E:1A4F3B:24D40D:64BBFD2C
+Accept-Ranges: bytes
+Date: Sat, 22 Jul 2023 16:06:45 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21738-DEL
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1690042006.677674,VS0,VE304
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 784edcd8a14ea8ab01ec0b80a8030136ebb31e51
+Expires: Sat, 22 Jul 2023 16:11:45 GMT
+Source-Age: 0
+
+]
+[2023-07-22 21:36:54,808: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-22 21:36:54,812: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-22 21:36:54,814: INFO: common: created directory at: artifacts]
+[2023-07-22 21:36:54,816: INFO: common: created directory at: artifacts/data_validation]
+[2023-07-22 21:37:09,128: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-22 21:37:09,133: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-22 21:37:09,135: INFO: common: created directory at: artifacts]
+[2023-07-22 21:37:09,136: INFO: common: created directory at: artifacts/data_transformation]
+[2023-07-22 21:41:43,447: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-22 21:41:43,451: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-22 21:41:43,453: INFO: common: created directory at: artifacts]
+[2023-07-22 21:41:43,455: INFO: common: created directory at: artifacts/model_trainer]
+[2023-07-22 21:43:21,525: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-22 21:43:21,533: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-22 21:43:21,536: INFO: common: created directory at: artifacts]
+[2023-07-22 21:43:21,538: INFO: common: created directory at: artifacts/model_trainer]
+[2023-07-22 21:48:42,268: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-22 21:48:42,278: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-22 21:48:42,281: INFO: common: created directory at: artifacts]
+[2023-07-22 21:48:42,283: INFO: common: created directory at: artifacts/model_trainer]
+[2023-07-23 01:04:23,678: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2023-07-23 01:04:23,693: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-23 01:04:23,693: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-23 01:04:23,693: INFO: common: created directory at: artifacts]
+[2023-07-23 01:04:23,693: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-07-23 01:04:31,460: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 67F8:351825:3EF4A:59E75:64BC2F3E
+Accept-Ranges: bytes
+Date: Sat, 22 Jul 2023 19:34:26 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21727-DEL
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1690054465.459471,VS0,VE783
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 966be3462f6bb1e87ec46580f5aa4c7446500c25
+Expires: Sat, 22 Jul 2023 19:39:26 GMT
+Source-Age: 0
+
+]
+[2023-07-23 01:04:31,666: INFO: main: >>>>> stage Data Ingestion stage completed <<<<<< 
+
+ x=========x]
+[2023-07-23 01:04:31,666: INFO: main: >>>>> stage Data Validation stage started <<<<<]
+[2023-07-23 01:04:31,669: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-23 01:04:31,675: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-23 01:04:31,675: INFO: common: created directory at: artifacts]
+[2023-07-23 01:04:31,675: INFO: common: created directory at: artifacts/data_validation]
+[2023-07-23 01:04:31,683: INFO: main: >>>>> stage Data Validation stage completed <<<<<< 
+
+ x=========x]
+[2023-07-23 01:04:31,683: INFO: main: >>>>> stage Data Transformation stage started <<<<<]
+[2023-07-23 01:04:31,691: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-23 01:04:31,691: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-23 01:04:31,699: INFO: common: created directory at: artifacts]
+[2023-07-23 01:04:31,699: INFO: common: created directory at: artifacts/data_transformation]
+[2023-07-23 01:04:39,669: INFO: main: >>>>> stage Data Transformation stage completed <<<<<< 
+
+ x=========x]
+[2023-07-23 01:04:39,669: INFO: main: >>>>> stage Model Trainer stage started <<<<<]
+[2023-07-23 01:04:39,677: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-23 01:04:39,677: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-23 01:04:39,677: INFO: common: created directory at: artifacts]
+[2023-07-23 01:04:39,677: INFO: common: created directory at: artifacts/model_trainer]
+[2023-07-23 01:05:17,585: ERROR: main: Invalid key: 6936 is out of bounds for size 0]
+Traceback (most recent call last):
+  File "main.py", line 41, in <module>
+    model_training.main()
+  File "c:\users\asus\desktop\textsummarizer\src\textSummarizer\pipeline\stage_04_model_trainer.py", line 13, in main
+    model_trainer_config.train()
+  File "c:\users\asus\desktop\textsummarizer\src\textSummarizer\components\model_trainer.py", line 35, in train
+    trainer.train()
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\transformers\trainer.py", line 1539, in train
+    return inner_training_loop(
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\transformers\trainer.py", line 1787, in _inner_training_loop
+    for step, inputs in enumerate(epoch_iterator):
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\accelerate\data_loader.py", line 384, in __iter__
+    current_batch = next(dataloader_iter)
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\torch\utils\data\dataloader.py", line 633, in __next__
+    data = self._next_data()
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\torch\utils\data\dataloader.py", line 677, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\torch\utils\data\_utils\fetch.py", line 49, in fetch
+    data = self.dataset.__getitems__(possibly_batched_index)
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\datasets\arrow_dataset.py", line 2796, in __getitems__
+    batch = self.__getitem__(keys)
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\datasets\arrow_dataset.py", line 2792, in __getitem__
+    return self._getitem(key)
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\datasets\arrow_dataset.py", line 2776, in _getitem
+    pa_subtable = query_table(self._data, key, indices=self._indices if self._indices is not None else None)
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\datasets\formatting\formatting.py", line 583, in query_table
+    _check_valid_index_key(key, size)
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\datasets\formatting\formatting.py", line 536, in _check_valid_index_key
+    _check_valid_index_key(int(max(key)), size=size)
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\datasets\formatting\formatting.py", line 526, in _check_valid_index_key
+    raise IndexError(f"Invalid key: {key} is out of bounds for size {size}")
+IndexError: Invalid key: 6936 is out of bounds for size 0
+[2023-07-23 01:06:11,724: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2023-07-23 01:06:11,742: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-23 01:06:11,749: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-23 01:06:11,749: INFO: common: created directory at: artifacts]
+[2023-07-23 01:06:11,749: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-07-23 01:06:11,749: INFO: data_ingestion: File already exists of size: ~ 7718 KB]
+[2023-07-23 01:06:11,986: INFO: main: >>>>> stage Data Ingestion stage completed <<<<<< 
+
+ x=========x]
+[2023-07-23 01:06:11,986: INFO: main: >>>>> stage Data Validation stage started <<<<<]
+[2023-07-23 01:06:11,994: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-23 01:06:12,002: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-23 01:06:12,002: INFO: common: created directory at: artifacts]
+[2023-07-23 01:06:12,010: INFO: common: created directory at: artifacts/data_validation]
+[2023-07-23 01:06:12,010: INFO: main: >>>>> stage Data Validation stage completed <<<<<< 
+
+ x=========x]
+[2023-07-23 01:06:12,010: INFO: main: >>>>> stage Data Transformation stage started <<<<<]
+[2023-07-23 01:06:12,018: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-23 01:06:12,026: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-23 01:06:12,026: INFO: common: created directory at: artifacts]
+[2023-07-23 01:06:12,034: INFO: common: created directory at: artifacts/data_transformation]
+[2023-07-23 01:06:15,293: WARNING: arrow_dataset: Loading cached processed dataset at C:\Users\ASUS\Desktop\textSummarizer\artifacts\data_ingestion\samsum_dataset\train\cache-b351a43c67b25ca6.arrow]
+[2023-07-23 01:06:15,804: WARNING: arrow_dataset: Loading cached processed dataset at C:\Users\ASUS\Desktop\textSummarizer\artifacts\data_ingestion\samsum_dataset\validation\cache-a0a13ba6948adb18.arrow]
+[2023-07-23 01:06:16,000: INFO: main: >>>>> stage Data Transformation stage completed <<<<<< 
+
+ x=========x]
+[2023-07-23 01:06:16,000: INFO: main: >>>>> stage Model Trainer stage started <<<<<]
+[2023-07-23 01:06:16,020: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-23 01:06:16,028: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-23 01:06:16,028: INFO: common: created directory at: artifacts]
+[2023-07-23 01:06:16,028: INFO: common: created directory at: artifacts/model_trainer]
+[2023-07-23 01:06:43,792: ERROR: main: Invalid key: 1 is out of bounds for size 0]
+Traceback (most recent call last):
+  File "main.py", line 41, in <module>
+    model_training.main()
+  File "c:\users\asus\desktop\textsummarizer\src\textSummarizer\pipeline\stage_04_model_trainer.py", line 13, in main
+    model_trainer_config.train()
+  File "c:\users\asus\desktop\textsummarizer\src\textSummarizer\components\model_trainer.py", line 35, in train
+    trainer.train()
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\transformers\trainer.py", line 1539, in train
+    return inner_training_loop(
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\transformers\trainer.py", line 1787, in _inner_training_loop
+    for step, inputs in enumerate(epoch_iterator):
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\accelerate\data_loader.py", line 384, in __iter__
+    current_batch = next(dataloader_iter)
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\torch\utils\data\dataloader.py", line 633, in __next__
+    data = self._next_data()
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\torch\utils\data\dataloader.py", line 677, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\torch\utils\data\_utils\fetch.py", line 49, in fetch
+    data = self.dataset.__getitems__(possibly_batched_index)
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\datasets\arrow_dataset.py", line 2796, in __getitems__
+    batch = self.__getitem__(keys)
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\datasets\arrow_dataset.py", line 2792, in __getitem__
+    return self._getitem(key)
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\datasets\arrow_dataset.py", line 2776, in _getitem
+    pa_subtable = query_table(self._data, key, indices=self._indices if self._indices is not None else None)
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\datasets\formatting\formatting.py", line 583, in query_table
+    _check_valid_index_key(key, size)
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\datasets\formatting\formatting.py", line 536, in _check_valid_index_key
+    _check_valid_index_key(int(max(key)), size=size)
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\datasets\formatting\formatting.py", line 526, in _check_valid_index_key
+    raise IndexError(f"Invalid key: {key} is out of bounds for size {size}")
+IndexError: Invalid key: 1 is out of bounds for size 0
+[2023-07-23 01:07:21,137: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-23 01:07:21,145: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-23 01:07:21,153: INFO: common: created directory at: artifacts]
+[2023-07-23 01:07:21,153: INFO: common: created directory at: artifacts/model_trainer]
+[2023-07-23 01:14:48,783: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-23 01:14:48,796: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-23 01:14:48,796: INFO: common: created directory at: artifacts]
+[2023-07-23 01:14:48,804: INFO: common: created directory at: artifacts/data_transformation]
+[2023-07-23 01:15:47,069: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2023-07-23 01:15:47,086: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-23 01:15:47,086: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-23 01:15:47,094: INFO: common: created directory at: artifacts]
+[2023-07-23 01:15:47,094: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-07-23 01:15:51,723: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 67F8:351825:3EF4A:59E75:64BC2F3E
+Accept-Ranges: bytes
+Date: Sat, 22 Jul 2023 19:45:48 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21731-DEL
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1690055148.471367,VS0,VE288
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 071f0975abd892792370e5bd5eb3d7009c750a2e
+Expires: Sat, 22 Jul 2023 19:50:48 GMT
+Source-Age: 0
+
+]
+[2023-07-23 01:15:52,047: INFO: main: >>>>> stage Data Ingestion stage completed <<<<<< 
+
+ x=========x]
+[2023-07-23 01:15:52,047: INFO: main: >>>>> stage Data Validation stage started <<<<<]
+[2023-07-23 01:15:52,064: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-23 01:15:52,072: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-23 01:15:52,072: INFO: common: created directory at: artifacts]
+[2023-07-23 01:15:52,072: INFO: common: created directory at: artifacts/data_validation]
+[2023-07-23 01:15:52,080: INFO: main: >>>>> stage Data Validation stage completed <<<<<< 
+
+ x=========x]
+[2023-07-23 01:15:52,080: INFO: main: >>>>> stage Data Transformation stage started <<<<<]
+[2023-07-23 01:15:52,096: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-23 01:15:52,104: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-23 01:15:52,104: INFO: common: created directory at: artifacts]
+[2023-07-23 01:15:52,104: INFO: common: created directory at: artifacts/data_transformation]
+[2023-07-23 01:16:02,235: INFO: main: >>>>> stage Data Transformation stage completed <<<<<< 
+
+ x=========x]
+[2023-07-23 01:19:06,010: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-23 01:19:06,042: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-23 01:19:06,042: INFO: common: created directory at: artifacts]
+[2023-07-23 01:19:06,042: INFO: common: created directory at: artifacts/model_trainer]
+[2023-07-23 01:22:23,996: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-23 01:22:24,013: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-23 01:22:24,021: INFO: common: created directory at: artifacts]
+[2023-07-23 01:22:24,021: INFO: common: created directory at: artifacts/model_trainer]
+[2023-07-23 01:30:38,296: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-23 01:30:38,327: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-23 01:30:38,335: INFO: common: created directory at: artifacts]
+[2023-07-23 01:30:38,335: INFO: common: created directory at: artifacts/model_trainer]
+[2023-07-23 01:42:08,741: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-23 01:42:08,764: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-23 01:42:08,772: INFO: common: created directory at: artifacts]
+[2023-07-23 01:42:08,772: INFO: common: created directory at: artifacts/model_trainer]
+[2023-07-23 01:44:06,524: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-23 01:44:06,548: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-23 01:44:06,556: INFO: common: created directory at: artifacts]
+[2023-07-23 01:44:06,556: INFO: common: created directory at: artifacts/data_transformation]
+[2023-07-23 01:44:32,618: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-23 01:44:32,626: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-23 01:44:32,634: INFO: common: created directory at: artifacts]
+[2023-07-23 01:44:32,634: INFO: common: created directory at: artifacts/model_trainer]
+[2023-07-23 01:46:57,212: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2023-07-23 01:46:57,227: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-23 01:46:57,227: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-23 01:46:57,227: INFO: common: created directory at: artifacts]
+[2023-07-23 01:46:57,243: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-07-23 01:46:57,245: INFO: data_ingestion: File already exists of size: ~ 7718 KB]
+[2023-07-23 01:46:57,379: ERROR: main: [Errno 22] Invalid argument: 'artifacts\\data_ingestion\\samsum_dataset\\test\\data-00000-of-00001.arrow']
+Traceback (most recent call last):
+  File "main.py", line 11, in <module>
+    data_ingestion.main()
+  File "c:\users\asus\desktop\textsummarizer\src\textSummarizer\pipeline\stage_01_data_ingestion.py", line 14, in main
+    data_ingestion.extract_zip_file()
+  File "c:\users\asus\desktop\textsummarizer\src\textSummarizer\components\data_ingestion.py", line 37, in extract_zip_file
+    zip_ref.extractall(unzip_path)
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\zipfile.py", line 1647, in extractall
+    self._extract_member(zipinfo, path, pwd)
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\zipfile.py", line 1701, in _extract_member
+    open(targetpath, "wb") as target:
+OSError: [Errno 22] Invalid argument: 'artifacts\\data_ingestion\\samsum_dataset\\test\\data-00000-of-00001.arrow'
+[2023-07-23 01:47:53,995: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2023-07-23 01:47:54,057: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-23 01:47:54,080: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-23 01:47:54,083: INFO: common: created directory at: artifacts]
+[2023-07-23 01:47:54,084: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-07-23 01:47:57,776: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 67F8:351825:3EF4A:59E75:64BC2F3E
+Accept-Ranges: bytes
+Date: Sat, 22 Jul 2023 20:17:55 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21739-DEL
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1690057075.273325,VS0,VE314
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 448b2688cc15317ab1e6c8a0253a88d4478b3082
+Expires: Sat, 22 Jul 2023 20:22:55 GMT
+Source-Age: 0
+
+]
+[2023-07-23 01:47:57,949: INFO: main: >>>>> stage Data Ingestion stage completed <<<<<< 
+
+ x=========x]
+[2023-07-23 01:47:57,949: INFO: main: >>>>> stage Data Validation stage started <<<<<]
+[2023-07-23 01:47:57,976: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-23 01:47:57,981: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-23 01:47:57,985: INFO: common: created directory at: artifacts]
+[2023-07-23 01:47:57,986: INFO: common: created directory at: artifacts/data_validation]
+[2023-07-23 01:47:57,990: INFO: main: >>>>> stage Data Validation stage completed <<<<<< 
+
+ x=========x]
+[2023-07-23 01:47:57,991: INFO: main: >>>>> stage Data Transformation stage started <<<<<]
+[2023-07-23 01:47:57,995: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-23 01:47:57,997: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-23 01:47:57,998: INFO: common: created directory at: artifacts]
+[2023-07-23 01:47:58,000: INFO: common: created directory at: artifacts/data_transformation]
+[2023-07-23 01:48:06,266: INFO: main: >>>>> stage Data Transformation stage completed <<<<<< 
+
+ x=========x]
+[2023-07-23 01:48:06,267: INFO: main: >>>>> stage Model Trainer stage started <<<<<]
+[2023-07-23 01:48:06,271: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-23 01:48:06,274: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-23 01:48:06,275: INFO: common: created directory at: artifacts]
+[2023-07-23 01:48:06,276: INFO: common: created directory at: artifacts/model_trainer]
+[2023-07-23 01:49:14,537: ERROR: main: Invalid key: 1 is out of bounds for size 0]
+Traceback (most recent call last):
+  File "main.py", line 41, in <module>
+    model_training.main()
+  File "c:\users\asus\desktop\textsummarizer\src\textSummarizer\pipeline\stage_04_model_trainer.py", line 13, in main
+    model_trainer_config.train()
+  File "c:\users\asus\desktop\textsummarizer\src\textSummarizer\components\model_trainer.py", line 35, in train
+    trainer.train()
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\transformers\trainer.py", line 1539, in train
+    return inner_training_loop(
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\transformers\trainer.py", line 1787, in _inner_training_loop
+    for step, inputs in enumerate(epoch_iterator):
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\accelerate\data_loader.py", line 384, in __iter__
+    current_batch = next(dataloader_iter)
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\torch\utils\data\dataloader.py", line 633, in __next__
+    data = self._next_data()
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\torch\utils\data\dataloader.py", line 677, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\torch\utils\data\_utils\fetch.py", line 49, in fetch
+    data = self.dataset.__getitems__(possibly_batched_index)
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\datasets\arrow_dataset.py", line 2796, in __getitems__
+    batch = self.__getitem__(keys)
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\datasets\arrow_dataset.py", line 2792, in __getitem__
+    return self._getitem(key)
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\datasets\arrow_dataset.py", line 2776, in _getitem
+    pa_subtable = query_table(self._data, key, indices=self._indices if self._indices is not None else None)
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\datasets\formatting\formatting.py", line 583, in query_table
+    _check_valid_index_key(key, size)
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\datasets\formatting\formatting.py", line 536, in _check_valid_index_key
+    _check_valid_index_key(int(max(key)), size=size)
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\datasets\formatting\formatting.py", line 526, in _check_valid_index_key
+    raise IndexError(f"Invalid key: {key} is out of bounds for size {size}")
+IndexError: Invalid key: 1 is out of bounds for size 0
+[2023-07-23 01:59:39,049: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-23 01:59:39,064: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-23 01:59:39,067: INFO: common: created directory at: artifacts]
+[2023-07-23 01:59:39,071: INFO: common: created directory at: artifacts/model_trainer]
+[2023-07-23 02:05:16,627: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-23 02:05:16,654: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-23 02:05:16,661: INFO: common: created directory at: artifacts]
+[2023-07-23 02:05:16,664: INFO: common: created directory at: artifacts/model_trainer]
+[2023-07-23 02:20:21,413: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-23 02:20:21,424: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-23 02:20:21,428: INFO: common: created directory at: artifacts]
+[2023-07-23 02:20:21,430: INFO: common: created directory at: artifacts/model_evaluation]
+[2023-07-23 02:30:03,213: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2023-07-23 02:30:03,224: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-23 02:30:03,227: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-23 02:30:03,230: INFO: common: created directory at: artifacts]
+[2023-07-23 02:30:03,233: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-07-23 02:30:07,063: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 67F8:351825:3EF4A:59E75:64BC2F3E
+Accept-Ranges: bytes
+Date: Sat, 22 Jul 2023 21:00:04 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21726-DEL
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1690059604.409132,VS0,VE337
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: e825a29c1c363fbcdc8198668f25ec425e73e822
+Expires: Sat, 22 Jul 2023 21:05:04 GMT
+Source-Age: 0
+
+]
+[2023-07-23 02:30:07,182: INFO: main: >>>>> stage Data Ingestion stage completed <<<<<< 
+
+ x=========x]
+[2023-07-23 02:30:07,183: INFO: main: >>>>> stage Data Validation stage started <<<<<]
+[2023-07-23 02:30:07,187: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-23 02:30:07,190: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-23 02:30:07,191: INFO: common: created directory at: artifacts]
+[2023-07-23 02:30:07,192: INFO: common: created directory at: artifacts/data_validation]
+[2023-07-23 02:30:07,195: INFO: main: >>>>> stage Data Validation stage completed <<<<<< 
+
+ x=========x]
+[2023-07-23 02:30:07,196: INFO: main: >>>>> stage Data Transformation stage started <<<<<]
+[2023-07-23 02:30:07,201: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-23 02:30:07,205: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-23 02:30:07,205: INFO: common: created directory at: artifacts]
+[2023-07-23 02:30:07,206: INFO: common: created directory at: artifacts/data_transformation]
+[2023-07-23 02:30:12,839: INFO: main: >>>>> stage Data Transformation stage completed <<<<<< 
+
+ x=========x]
+[2023-07-23 02:30:12,840: INFO: main: >>>>> stage Model Trainer stage started <<<<<]
+[2023-07-23 02:30:12,845: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-23 02:30:12,849: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-23 02:30:12,850: INFO: common: created directory at: artifacts]
+[2023-07-23 02:30:12,851: INFO: common: created directory at: artifacts/model_trainer]
+[2023-07-23 02:30:23,512: ERROR: main: [enforce fail at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\c10\core\impl\alloc_cpu.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 16777216 bytes.]
+Traceback (most recent call last):
+  File "main.py", line 42, in <module>
+    model_training.main()
+  File "c:\users\asus\desktop\textsummarizer\src\textSummarizer\pipeline\stage_04_model_trainer.py", line 13, in main
+    model_trainer_config.train()
+  File "c:\users\asus\desktop\textsummarizer\src\textSummarizer\components\model_trainer.py", line 16, in train
+    model_pegasus = AutoModelForSeq2SeqLM.from_pretrained(self.config.model_ckpt).to(device)
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\transformers\models\auto\auto_factory.py", line 493, in from_pretrained
+    return model_class.from_pretrained(
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\transformers\modeling_utils.py", line 2700, in from_pretrained
+    model = cls(config, *model_args, **model_kwargs)
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\transformers\models\pegasus\modeling_pegasus.py", line 1316, in __init__
+    self.model = PegasusModel(config)
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\transformers\models\pegasus\modeling_pegasus.py", line 1167, in __init__
+    self.encoder = PegasusEncoder(config, self.shared)
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\transformers\models\pegasus\modeling_pegasus.py", line 668, in __init__
+    self.layers = nn.ModuleList([PegasusEncoderLayer(config) for _ in range(config.encoder_layers)])
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\transformers\models\pegasus\modeling_pegasus.py", line 668, in <listcomp>
+    self.layers = nn.ModuleList([PegasusEncoderLayer(config) for _ in range(config.encoder_layers)])
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\transformers\models\pegasus\modeling_pegasus.py", line 312, in __init__
+    self.fc1 = nn.Linear(self.embed_dim, config.encoder_ffn_dim)
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\torch\nn\modules\linear.py", line 96, in __init__
+    self.weight = Parameter(torch.empty((out_features, in_features), **factory_kwargs))
+RuntimeError: [enforce fail at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\c10\core\impl\alloc_cpu.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 16777216 bytes.
+[2023-07-23 02:32:44,488: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2023-07-23 02:32:44,494: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-23 02:32:44,500: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-23 02:32:44,502: INFO: common: created directory at: artifacts]
+[2023-07-23 02:32:44,503: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-07-23 02:32:44,504: INFO: data_ingestion: File already exists of size: ~ 7718 KB]
+[2023-07-23 02:32:44,610: INFO: main: >>>>> stage Data Ingestion stage completed <<<<<< 
+
+ x=========x]
+[2023-07-23 02:32:44,611: INFO: main: >>>>> stage Data Validation stage started <<<<<]
+[2023-07-23 02:32:44,617: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-23 02:32:44,619: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-23 02:32:44,621: INFO: common: created directory at: artifacts]
+[2023-07-23 02:32:44,622: INFO: common: created directory at: artifacts/data_validation]
+[2023-07-23 02:32:44,624: INFO: main: >>>>> stage Data Validation stage completed <<<<<< 
+
+ x=========x]
+[2023-07-23 02:32:44,625: INFO: main: >>>>> stage Data Transformation stage started <<<<<]
+[2023-07-23 02:32:44,631: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-23 02:32:44,634: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-23 02:32:44,635: INFO: common: created directory at: artifacts]
+[2023-07-23 02:32:44,635: INFO: common: created directory at: artifacts/data_transformation]
+[2023-07-23 02:32:46,304: WARNING: arrow_dataset: Loading cached processed dataset at C:\Users\ASUS\Desktop\textSummarizer\artifacts\data_ingestion\samsum_dataset\train\cache-b351a43c67b25ca6.arrow]
+[2023-07-23 02:32:46,580: WARNING: arrow_dataset: Loading cached processed dataset at C:\Users\ASUS\Desktop\textSummarizer\artifacts\data_ingestion\samsum_dataset\validation\cache-a0a13ba6948adb18.arrow]
+[2023-07-23 02:32:46,692: INFO: main: >>>>> stage Data Transformation stage completed <<<<<< 
+
+ x=========x]
+[2023-07-23 02:32:46,693: INFO: main: >>>>> stage Model Trainer stage started <<<<<]
+[2023-07-23 02:32:46,698: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-23 02:32:46,702: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-23 02:32:46,703: INFO: common: created directory at: artifacts]
+[2023-07-23 02:32:46,704: INFO: common: created directory at: artifacts/model_trainer]
+[2023-07-23 02:32:53,100: ERROR: main: [enforce fail at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\c10\core\impl\alloc_cpu.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 393637888 bytes.]
+Traceback (most recent call last):
+  File "main.py", line 42, in <module>
+    model_training.main()
+  File "c:\users\asus\desktop\textsummarizer\src\textSummarizer\pipeline\stage_04_model_trainer.py", line 13, in main
+    model_trainer_config.train()
+  File "c:\users\asus\desktop\textsummarizer\src\textSummarizer\components\model_trainer.py", line 16, in train
+    model_pegasus = AutoModelForSeq2SeqLM.from_pretrained(self.config.model_ckpt).to(device)
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\transformers\models\auto\auto_factory.py", line 493, in from_pretrained
+    return model_class.from_pretrained(
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\transformers\modeling_utils.py", line 2700, in from_pretrained
+    model = cls(config, *model_args, **model_kwargs)
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\transformers\models\pegasus\modeling_pegasus.py", line 1316, in __init__
+    self.model = PegasusModel(config)
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\transformers\models\pegasus\modeling_pegasus.py", line 1165, in __init__
+    self.shared = nn.Embedding(vocab_size, config.d_model, padding_idx)
+  File "C:\Users\ASUS\miniconda3\envs\textS\lib\site-packages\torch\nn\modules\sparse.py", line 142, in __init__
+    self.weight = Parameter(torch.empty((num_embeddings, embedding_dim), **factory_kwargs),
+RuntimeError: [enforce fail at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\c10\core\impl\alloc_cpu.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 393637888 bytes.
